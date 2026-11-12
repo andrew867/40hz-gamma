@@ -1,0 +1,134 @@
+{
+  "id": "ENVELOPE_RESEARCH_V1_PROBES",
+  "total_samples": 9600000,
+  "plan": {
+    "profile": "research_v1",
+    "sample_rate": 48000,
+    "protocol": "mit_sine_pulse",
+    "repetition_hz": 40.0,
+    "pulse_duration_s": 0.001,
+    "session_fade_s": 10.0,
+    "duration_s": 3600.0,
+    "breaks": {
+      "enabled": true,
+      "interval_s": 180.0,
+      "duration_s": 20.0,
+      "fade_s": 2.0,
+      "placement": "end"
+    },
+    "light": {
+      "mode": "audio_envelope",
+      "duty": 0.5,
+      "phase_offset_us": 0.0,
+      "threshold": 0.5,
+      "polarity": "active_high"
+    }
+  },
+  "rows": [
+    {
+      "time_s": 0.0,
+      "sample_index": 0,
+      "break_gain": 1.0,
+      "session_fade_gain": 0.0,
+      "envelope": 0.0,
+      "light_audio_envelope": 0
+    },
+    {
+      "time_s": 0.5,
+      "sample_index": 24000,
+      "break_gain": 1.0,
+      "session_fade_gain": 0.05,
+      "envelope": 0.05,
+      "light_audio_envelope": 0
+    },
+    {
+      "time_s": 9.999,
+      "sample_index": 479952,
+      "break_gain": 1.0,
+      "session_fade_gain": 0.9999,
+      "envelope": 0.9999,
+      "light_audio_envelope": 0
+    },
+    {
+      "time_s": 10.0,
+      "sample_index": 480000,
+      "break_gain": 1.0,
+      "session_fade_gain": 1.0,
+      "envelope": 1.0,
+      "light_audio_envelope": 1
+    },
+    {
+      "time_s": 159.0,
+      "sample_index": 7632000,
+      "break_gain": 1.0,
+      "session_fade_gain": 1.0,
+      "envelope": 1.0,
+      "light_audio_envelope": 1
+    },
+    {
+      "time_s": 160.0,
+      "sample_index": 7680000,
+      "break_gain": 1.0,
+      "session_fade_gain": 1.0,
+      "envelope": 1.0,
+      "light_audio_envelope": 1
+    },
+    {
+      "time_s": 161.0,
+      "sample_index": 7728000,
+      "break_gain": 0.5,
+      "session_fade_gain": 1.0,
+      "envelope": 0.5,
+      "light_audio_envelope": 1
+    },
+    {
+      "time_s": 170.0,
+      "sample_index": 8160000,
+      "break_gain": 0.0,
+      "session_fade_gain": 1.0,
+      "envelope": 0.0,
+      "light_audio_envelope": 0
+    },
+    {
+      "time_s": 178.0,
+      "sample_index": 8544000,
+      "break_gain": 0.0,
+      "session_fade_gain": 1.0,
+      "envelope": 0.0,
+      "light_audio_envelope": 0
+    },
+    {
+      "time_s": 179.0,
+      "sample_index": 8592000,
+      "break_gain": 0.5,
+      "session_fade_gain": 1.0,
+      "envelope": 0.5,
+      "light_audio_envelope": 1
+    },
+    {
+      "time_s": 180.0,
+      "sample_index": 8640000,
+      "break_gain": 1.0,
+      "session_fade_gain": 1.0,
+      "envelope": 1.0,
+      "light_audio_envelope": 1
+    },
+    {
+      "time_s": 0.025,
+      "sample_index": 1200,
+      "break_gain": 1.0,
+      "session_fade_gain": 0.0025,
+      "envelope": 0.0025,
+      "light_audio_envelope": 0
+    },
+    {
+      "time_s": 30.0,
+      "sample_index": 1440000,
+      "break_gain": 1.0,
+      "session_fade_gain": 1.0,
+      "envelope": 1.0,
+      "light_audio_envelope": 1,
+      "note": "sample 1_440_000 is an exact pulse onset 30 s in"
+    }
+  ]
+}

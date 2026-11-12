@@ -1,0 +1,50 @@
+{
+  "schema": "gamma.session_plan.v1",
+  "id": "00000000-0000-4000-8000-000000000001",
+  "profile": "research_v1",
+  "sample_rate": 48000,
+  "protocol": "mit_sine_pulse",
+  "duration_s": 3600,
+  "repetition_hz": 40,
+  "carrier_hz": 10000,
+  "pulse_duration_s": 0.001,
+  "edge": "raised_cosine_150us",
+  "click_seed": 1,
+  "binaural": {
+    "left_hz": 200,
+    "right_hz": 240
+  },
+  "noise": {
+    "enabled": true,
+    "algorithm": "kellet",
+    "level_rms": 0.02,
+    "seed": 1,
+    "follows_envelope": true
+  },
+  "normalize": "fixed_stimulus",
+  "stimulus_peak": 0.95,
+  "session_fade_s": 10,
+  "breaks": {
+    "enabled": true,
+    "interval_s": 180,
+    "duration_s": 20,
+    "fade_s": 2,
+    "placement": "end"
+  },
+  "light": {
+    "enabled": true,
+    "mode": "audio_envelope",
+    "duty": 0.5,
+    "phase_offset_us": 0,
+    "threshold": 0.5,
+    "polarity": "active_high",
+    "max_duty": 0.5
+  },
+  "playback": {
+    "volume": 1
+  },
+  "safety": {
+    "photosensitivity_ack": true,
+    "ack_unix_ms": 0
+  }
+}

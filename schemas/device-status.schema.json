@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/gamma/device-status.schema.json",
+  "title": "GammaDeviceStatus",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "state",
+    "plan_id",
+    "sample_index",
+    "light_logical",
+    "sync_mode",
+    "last_error"
+  ],
+  "properties": {
+    "schema": { "const": "gamma.device_status.v1" },
+    "state": { "enum": ["idle", "armed", "running", "fault"] },
+    "plan_id": { "type": "string" },
+    "sample_index": { "type": "integer", "minimum": 0 },
+    "light_logical": { "type": "integer", "enum": [0, 1] },
+    "sync_mode": { "enum": ["exact_device", "exact_usb", "bounded", "scheduled", "none"] },
+    "edge_error_us": { "type": "number" },
+    "frames_dropped": { "type": "integer", "minimum": 0 },
+    "last_error": { "type": "string" }
+  }
+}

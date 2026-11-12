@@ -1,0 +1,8 @@
+{
+  "id": "BINAURAL_VISUAL50_OVERRIDE",
+  "note": "protocol binaural_beat with mode audio_envelope still uses the 50 percent grid. threshold 0 so the fade is the only envelope gate. Samples are 30 s in, where the session fade is finished and no break is active.",
+  "sample_on": 1440000,
+  "light_on": 1,
+  "sample_off": 1440600,
+  "light_off": 0
+}
