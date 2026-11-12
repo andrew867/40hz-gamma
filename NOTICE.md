@@ -11,8 +11,9 @@ The behavior described in `docs/01-as-built.md` was recovered from two public so
   not part of this project and must not be copied into a product repository.
 
 This documentation pack, the oracle in `tools/oracle/`, and the vectors in
-`vectors/` are original work. They describe an interoperable successor. They
-are not a claim of affiliation with the upstream author.
+`vectors/` are original work, licensed under the MIT License in `LICENSE`.
+They describe an interoperable successor. They are not a claim of affiliation
+with the upstream author.
 
 This project is an experimental research tool. It is not a medical device and
 it makes no treatment claim.

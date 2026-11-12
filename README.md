@@ -8,7 +8,8 @@ Neither one drives a light. This pack specifies the audio, the light pin, and
 the only clock arrangements that can keep those two locked.
 
 The product is an experimental research tool. It is not a medical device and
-the documents must not grow therapeutic claims.
+the documents must not grow therapeutic claims. This pack is MIT licensed;
+see `LICENSE`.
 
 ## What “locked to the 10 kHz pulse” means
 
