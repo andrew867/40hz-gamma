@@ -47,7 +47,7 @@ wait until the slate has been filmed and the kernel matches the vectors.
 | 10 nF shunt | Still fitted. `gamma_shunt_removed` is false. Clicks are the first sound | The board is actually modified |
 | TSF error | Unknown. The slate may show a multi-millisecond miss. It cannot pass the 200 µs row | A scope run of TST-BENCH-006 |
 | First radio | Standalone SoftAP, no home router | You want OTA or the browser on the same LAN |
-| License | MIT, copyright 2026 Andrew, in `LICENSE`. Separate from the upstream POC | You choose a different license |
+| License | MIT, copyright 2026 Andrew Green, in `LICENSE`. Separate from the upstream POC | You choose a different license |
 | Public repo | https://github.com/andrew867/40hz-gamma is public. Safety copy is in `docs/09-safety.md` and `NOTICE.md` | You make the repository private |
 
 ## Risks already accepted
